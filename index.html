@@ -1,285 +1,173 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sergio Garcia Garcia</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Sergio García - Cloud Security Engineer</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Mobile Menu -->
     <div id="mobile-menu-open" class="shadow-large">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+        <i class="fas fa-bars"></i>
     </div>
-    <!-- End #mobile-menu-toggle -->
+
+    <!-- Header -->
     <header>
         <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            <span>Close</span> <i class="fas fa-times"></i>
         </div>
         <ul id="menu" class="shadow">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#experience">Experience</a>
-            </li>
-            <li>
-                <a href="#education">Education</a>
-            </li>
-            <li>
-                <a href="#projects">Activities</a>
-            </li>
-            <li>
-                <a href="#skills">Skills</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
-    <!-- End header -->
 
+    <!-- Lead Section -->
     <div id="lead">
         <div id="lead-content">
-            <h1>Sergio Garcia Garcia</h1>
-            <h2>Computer Engineer</h2>
-            <a href="https://drive.google.com/file/d/1VmzNaJ23gHR4GxC8Wx6wQRDqzXkWY79D/view?usp=sharing" class="btn-rounded-white">Download Resume</a>
+            <h1>Sergio García</h1>
+            <h2>Cloud Security Engineer</h2>
+            <a href="https://drive.google.com/file/d/1VmzNaJ23gHR4GxC8Wx6wQRDqzXkWY79D/view?usp=sharing" class="btn btn-light btn-rounded">Download Resume</a>
         </div>
-        <!-- End #lead-content -->
 
         <div id="lead-overlay"></div>
-
         <div id="lead-down">
             <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                <i class="fas fa-chevron-down"></i>
             </span>
         </div>
-        <!-- End #lead-down -->
     </div>
-    <!-- End #lead -->
 
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
-                </div>
-                <div style="margin-bottom:50px" class="col-md-8" >
-                    <p>
-                      Sergio is a highly motivated Computer Engineer with strong interest in cyber security and cloud technologies.
-                      Furthermore, he is a collaborative, organized,  innovative and ambitious person with an open and learning mindset which is aiming
-                      to continue training in order to be a better professional.
-                    </p>
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>About Me</h2>
+            </div>
+            <div class="col-md-8">
+                <p>
+                    I am a Cloud Security Engineer with over five years of experience, specializing in AWS, Azure, and Google Cloud. I hold a Master’s Degree in Cybersecurity, along with key certifications, including AWS Certified Security – Specialty and AWS Certified Solutions Architect – Professional. I am passionate about building secure, scalable cloud infrastructures and advancing cloud security through innovation and education.
+                </p>
             </div>
         </div>
-    </div>
-    <!-- End #about -->
+    </section>
 
-    <div id="experience" class="background-alt">
+    <!-- Experience Section -->
+    <section id="experience" class="background-alt py-5">
         <h2 class="heading">Experience</h2>
-        <div id="experience-timeline">
-          <div data-date="September 2020 – Present">
-              <h3>Openbank</h3>
-              <h4>Security Analyst</h4>
-              <p >
-                OpenTech Talent Program - Two-year rotation through the different cybersecurity areas of the bank.
-              </p>
-          </div>
+        <div id="experience-timeline" class="container">
+            <div class="timeline-block" data-date="May 2022 – Present">
+                <h3>Prowler Inc.</h3>
+                <h4>Main Maintainer - Open Source Cloud Security Tool</h4>
+                <p>
+                    As the main maintainer of Prowler, a widely respected Open Source Cloud Security tool, I ensure continuous improvement and security compliance for cloud environments. I was also instrumental in the development of Prowler SaaS, a solution designed to bring the tool's capabilities to broader audiences in a managed SaaS format.
+                </p>
+            </div>
 
-            <div data-date="February 2020 – August 2020">
+            <div class="timeline-block" data-date="September 2020 – May 2022">
+                <h3>Openbank</h3>
+                <h4>Cloud Security Engineer</h4>
+                <p>
+                    Designed and implemented AWS-based cloud security solutions for Openbank, safeguarding critical infrastructure and improving operational resilience. I also led efforts to enhance compliance with security regulations and mitigate risks across cloud services.
+                </p>
+            </div>
+
+            <div class="timeline-block" data-date="February 2020 – August 2020">
                 <h3>Amazon</h3>
                 <h4>IT Intern</h4>
-                <p >IT Support Engineer Intern at MAD6 Amazon Fulfillment Center.<br></p>
-		    <ul style="margin:0;color:#74808a;font-size:0.9em;padding:0 0 0 15px">
-                  <li>
-                    Resolved Fulfillment Center change management and Technical Support tickets.
-                  </li>
-                  <li>
-                    Learned Amazon Leadership Principles and management methods.
-                  </li>
-                  <li>
-                    Contribution to Ring Customer Service & SecOps team for ip.ring.com service.
-                  </li>
-                </ul>
+                <p>Supported IT operations at the MAD6 Fulfillment Center, troubleshooting and resolving technical support tickets while gaining hands-on experience with Amazon Leadership Principles and IT management methods.</p>
             </div>
-
-            <div data-date="June 2019 – August 2019">
-                <h3>Banco Santander</h3>
-                <h4>IT Intern</h4>
-                <p>Support to the Tecnhology and Operations team:<br></p>
-                  <ul style="margin:0;color:#74808a;font-size:0.9em;padding:0 0 0 15px">
-                  <li>
-                    I achieved knowledge about Cybersecurity's vulnerabilities by cooperating with CISO's team in order to monitor them.
-                  </li>
-                  <li>
-                    I learnt how to analyze the possible technological or economical impacts in the company by the participation in CIO's projects.
-                  </li>
-                  <li>
-                    I created dashbords with the reports of the team in Power BI.
-                  </li>
-                </ul>
-            </div>
-
         </div>
-    </div>
-    <!-- End #experience -->
+    </section>
 
-    <div id="education">
+    <!-- Education Section -->
+    <section id="education" class="container py-5">
         <h2 class="heading">Education</h2>
+
         <div class="education-block">
             <h3>Universidad Europea</h3>
             <span class="education-date">Sept 2020 - June 2021</span>
-            <h4>Master’s Degree in Cybersecurity</h4>
-                <p>
-            Official Master’s Degree that covers the strategic, tactical and technical branches of cybersecurity.
-                </p>
+            <h4>Master's Degree in Cybersecurity</h4>
+            <p>Comprehensive study covering strategic, tactical, and technical branches of cybersecurity.</p>
         </div>
 
         <div class="education-block">
             <h3>University Carlos III of Madrid</h3>
             <span class="education-date">Sept 2016 - July 2020</span>
-            <h4>Bachelor's degree in Computer Science and Engineering</h4>
-            <p>
-              Four year EUR-ACE accredited degree. Full english qualification. Additional self-learning and emphasis in:
-              <ul>
-                  <li>
-                    Computer and network security.
-                  </li>
-                  <li>
-                    Cryptography, PKI and RSA.
-                  </li>
-                  <li>
-                    Penetration testing and exploitation.
-                  </li>
-              </ul>
-            </p>
-            <p>
-Final thesis in "Analysis of IOT side-channel vulnerabilities" graded with 9.1/10.
-</p>
+            <h4>Bachelor's Degree in Computer Science and Engineering</h4>
+            <p>Thesis: Analysis of IoT side-channel vulnerabilities (graded 9.1/10).</p>
         </div>
-        <!-- End .education-block -->
 
         <div class="education-block">
             <h3>Warsaw University of Technology</h3>
             <span class="education-date">Sept 2018 - Feb 2019</span>
-            <h4>Bachelor's degree in Computer Science and Engineering</h4>
-                <p>
-            I was one semester with ERASMUS+ scholarship where I used to work with
-international people in academic projects.
-                </p>
+            <h4>ERASMUS+ Scholar</h4>
+            <p>Collaborated with international teams on academic projects, gaining global exposure and knowledge in cloud and cybersecurity technologies.</p>
         </div>
-        <!-- End .education-block -->
-    </div>
-    <!-- End #education -->
-<!--
-    <div id="projects" class="background-alt">
-        <h2 class="heading">Projects</h2>
-        <div class="container">
-            <div class="row">
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                </div>
+    </section>
 
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <img src="images/project.jpg" />
-                    </div>
-                    <div class="project-info">
-                        <h3>Project Name Here</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
-                        </p>
-                        <a href="#">View Project</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     End #projects -->
-
-    <div id="skills" class="background-alt">
+    <!-- Skills Section -->
+    <section id="skills" class="background-alt py-5">
         <h2 class="heading">Skills</h2>
-        <ul>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>SQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Assembly Language</li>
-            <li>R</li>
-            <li>AWS</li>
-            <li>PowerBI</li>
-            <li>Android Studio</li>
-            <li>Liferay</li>
-            <li>Kali Linux</li>
-            <li>Linux</li>
-            <li>Windows</li>
-            <li>Microsoft Office</li>
-        </ul>
-    </div>
-    <!-- End #skills -->
+        <div class="container">
+            <ul class="list-inline">
+                <li class="list-inline-item">AWS</li>
+                <li class="list-inline-item">Azure</li>
+                <li class="list-inline-item">Google Cloud</li>
+                <li class="list-inline-item">Python</li>
+                <li class="list-inline-item">Security Compliance</li>
+                <li class="list-inline-item">Automation</li>
+                <li class="list-inline-item">IAM</li>
+                <li class="list-inline-item">Infrastructure as Code (IaC)</li>
+            </ul>
+        </div>
+    </section>
 
-    <div id="contact">
+    <!-- Contact Section -->
+    <section id="contact" class="container py-5">
         <h2>Get in Touch</h2>
         <div id="contact-form">
             <form method="POST" action="https://formspree.io/sergargar1@gmail.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="hidden" name="_subject" value="Contact request from personal website">
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
+                <button type="submit" class="btn btn-primary">Send</button>
             </form>
         </div>
-        <!-- End #contact-form -->
-    </div>
-    <!-- End #contact -->
+    </section>
 
-    <footer>
+    <!-- Footer -->
+    <footer class="py-3">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5 copyright">
-                    <p>
-                        Copyright &copy; 2020 Sergio Garcia Garcia
-                    </p>
+                <div class="col-sm-6">
+                    <p>&copy; 2024 Sergio Garcia. All rights reserved.</p>
                 </div>
-                <div class="col-sm-2 top">
-                    <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                    </span>
-                </div>
-                <div class="col-sm-5 social">
-                    <ul>
-                        <li>
-                            <a href="https://github.com/sergargar/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://linkedin.com/in/sergargar" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
+                <div class="col-sm-6 text-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="https://github.com/sergargar" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li class="list-inline-item"><a href="https://linkedin.com/in/sergargar" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-    <!-- End footer -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.min.js"></script>
 </body>
 
